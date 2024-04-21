@@ -38,7 +38,7 @@ ejson::Tokenizer tokenizer{};
 ejson::ListOfTokenizedPairs list_of_pairs;
 
 // Call the tokenizer function
-// In addition to the tokens, the tokenizers also provides a feedback 
+// In addition to the tokens, the tokenizer also provides a feedback 
 ejson::TokenizerFeedback feedback = tokenizer.tokenize(input_file, list_of_pairs);
 
 // The tokenizer feedback ejson::TokenizerFeedback provides a success or error code
