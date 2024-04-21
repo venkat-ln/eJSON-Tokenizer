@@ -1,0 +1,3 @@
+import "test-folder/test-config.ejson"
+import "gpio/gpio.ejson"
+import "another-test-config-ejson"

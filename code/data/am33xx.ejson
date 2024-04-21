@@ -1,0 +1,6 @@
+{
+	"model": "TI AM335x BeagleBone",
+	"compatible": "ti,am33xx",
+	"address-cells": 1,
+	"size-cells": 1,
+}
