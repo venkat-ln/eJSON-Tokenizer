@@ -2,8 +2,8 @@
 This package implements a C++14-based tokenizer for an extended-JSON (eJSON) object notation format.
 
 ## Repository structure
-- `.code/src/` contains the source code for the tokenizer and a simple user application `app.cpp` for testing purposes.
-- `.code/data/` contains sample eJSON files. For the included user application, this folder also acts as the root location for providing the eJSON files for tokenization.
+- `./code/src/` contains the source code for the tokenizer and a simple user application `app.cpp` for testing purposes.
+- `./code/data/` contains sample eJSON files. For the included user application, this folder also acts as the root location for providing the eJSON files for tokenization.
 
 ## Developed for and using
 - `Ubuntu 22.04.4 LTS`
@@ -13,7 +13,7 @@ This package implements a C++14-based tokenizer for an extended-JSON (eJSON) obj
 
 ## Compiling and testing the user application
 - Download the repository to your local machine.
-- Open a shell environment and change into the folder `.code/
+- Open a shell environment and change into the folder `./code/`
 - Compile and build the executable: `gcc -std=c++14 -Wall src/tokenizer.cpp src/importer.cpp src/scopes.cpp src/rules.cpp src/app.cpp -lstdc++ -o test`
 - Run the code: `./test`
 
